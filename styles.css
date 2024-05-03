@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+a {
+  color: #595959;
+}
+
 p {
   padding: 1rem 0;
 }
@@ -12,10 +16,40 @@ body {
   font-family: "Exo";
 }
 
+nav {
+  text-align: right;
+}
+
+nav > ul {
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+li {
+  list-style: none;
+  padding: 0.5rem 1rem;
+}
+
+header {
+  padding: 1rem 0;
+  background: #e7e7e7;
+}
+
 .__container {
   max-width: 920px;
   width: 100%;
   margin: 0 auto;
+}
+
+.__d-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.__logo {
+  width: 60vw;
 }
 
 @media only screen and (max-width: 815px) {
