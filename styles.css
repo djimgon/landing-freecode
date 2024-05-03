@@ -16,6 +16,10 @@ h1, h5 {
   padding: 1rem 0;
 }
 
+h2 {
+  padding: 2rem 0 0 0;
+}
+
 body {
   font-family: "Exo";
 }
@@ -59,23 +63,32 @@ input[type="submit"] {
 }
 
 .__container {
-max-width: 920px;
-width: 100%;
-margin: 0 auto;
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .__video-wrap iframe {
-width: 100% !important;
-height: 500px;
+  width: 100% !important;
+  height: 500px;
 }
 
 .__d-flex {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .__logo {
-width: 60vw;
+  width: 60vw;
+}
+
+.grid {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.__grid-wrap {
+  padding: 2rem 0;
 }
 
 @media only screen and (max-width: 815px) {
