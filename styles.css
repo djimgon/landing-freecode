@@ -57,9 +57,25 @@ input {
 
 input[type="submit"] {
   display: block;
-  background-color: #047cc5;
-  border: none;
-  color: white;
+  background-color: #c1bfb6;
+  text-transform: uppercase;
+  border: 3px black solid;
+  color: black;
+  font-size: 1em;
+  font-weight: 900;;
+}
+
+button {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 15px 0;
+  background-color: #c1bfb6;
 }
 
 .__container {
@@ -99,6 +115,31 @@ input[type="submit"] {
 
 .__p-about {
   padding: 1.5rem;
+}
+
+.__price  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  padding: 0 0 2rem;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.__price > .__level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.__price > ol > li {
+  padding: 5px 0;
 }
 
 @media only screen and (max-width: 815px) {
