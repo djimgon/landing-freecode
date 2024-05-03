@@ -4,18 +4,12 @@
   margin: 0;
 }
 
-a {
-  color: #00ffeb;
-}
-
 p {
   padding: 1rem 0;
 }
 
 body {
   font-family: "Exo";
-  background: black;
-  color: white;
 }
 
 @media only screen and (max-width: 815px) {
