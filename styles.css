@@ -12,6 +12,10 @@ p {
   padding: 1rem 0;
 }
 
+h1, h5 {
+  padding: 1rem 0;
+}
+
 body {
   font-family: "Exo";
 }
@@ -41,24 +45,37 @@ section {
   padding: 2rem;
 }
 
+input {
+  width: 50%;
+  padding: 1rem;
+  margin: 0.1rem;
+}
+
+input[type="submit"] {
+  display: block;
+  background-color: #047cc5;
+  border: none;
+  color: white;
+}
+
 .__container {
-  max-width: 920px;
-  width: 100%;
-  margin: 0 auto;
+max-width: 920px;
+width: 100%;
+margin: 0 auto;
 }
 
 .__video-wrap iframe {
-  width: 100% !important;
-  height: 500px;
+width: 100% !important;
+height: 500px;
 }
 
 .__d-flex {
-  display: flex;
-  flex-direction: row;
+display: flex;
+flex-direction: row;
 }
 
 .__logo {
-  width: 60vw;
+width: 60vw;
 }
 
 @media only screen and (max-width: 815px) {
