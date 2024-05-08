@@ -20,6 +20,7 @@
       </div>
       <nav id="nav-bar">
         <ul>
+          <li><a class="nav-link" href="#watch-video">Watch me</a></li>
           <li><a class="nav-link" href="#subscribe">Subscribe</a></li>
           <li><a class="nav-link" href="#features">Features</a></li>
           <li><a class="nav-link" href="#about">About</a></li>
@@ -30,12 +31,12 @@
   </div>
 </header>
 <main>
-  <section>
+  <section id="watch-video">
     <div class="__container">
       <div class="__video-wrap">
         <iframe id="video"
                 src="https://www.youtube-nocookie.com/embed/svPf9a7X24c?rel=0&amp;controls=0&amp;showinfo=0"
-                frameborder="0" allowfullscreen=""></iframe>
+        ></iframe>
       </div>
     </div>
   </section>
@@ -46,7 +47,8 @@
         <form id="form" class="__main-form" action="https://www.freecodecamp.com/email-submit">
           <div class="__d-flex">
             <input name="name" id="name" type="text" placeholder="Enter your name" required>
-            <input name="email" id="email" type="email" placeholder="Enter your email address" pattern="[^@\s]+@[^@\s]+" required>
+            <input name="email" id="email" type="email" placeholder="Enter your email address" pattern="[^@\s]+@[^@\s]+"
+                   required>
             <input id="submit" type="submit" value="Subscribe" class="__btn">
           </div>
         </form>
