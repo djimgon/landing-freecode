@@ -43,6 +43,12 @@ li {
 header {
   padding: 1rem 0;
   background: #e7e7e7;
+  position: fixed;
+  width: 100%;
+}
+
+main {
+  padding-top: 5rem;
 }
 
 section {
